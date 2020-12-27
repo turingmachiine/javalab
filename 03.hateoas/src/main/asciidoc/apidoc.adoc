@@ -1,0 +1,54 @@
+= Описание API по курсам
+
+== Методы
+
+
+=== Закончить карьеру артиста
+
+Можно закончить карьеру артиста, статус которого *isActive = true*
+
+.request
+
+include::{snippets}\end_career\http-request.adoc[]
+
+.response   
+
+include::{snippets}\end_career\http-response.adoc[]
+
+.response-fields
+
+include::{snippets}\end_career\response-fields.adoc[]
+
+
+=== Конвертировать песню в MP3
+
+Можно конвертировать файл с другим музыкальным разрешением
+
+.request
+
+include::{snippets}\convert\http-request.adoc[]
+
+.response   
+
+include::{snippets}\convert\http-response.adoc[]
+
+.response-fields
+
+include::{snippets}\convert\response-fields.adoc[]
+
+
+=== Добавить песню в плейлист
+
+Можно добавить песню к плейлисту
+
+.request
+
+include::{snippets}\add_song\http-request.adoc[]
+
+.response   
+
+include::{snippets}\add_song\http-response.adoc[]
+
+.response-fields
+
+include::{snippets}\add_song\response-fields.adoc[]

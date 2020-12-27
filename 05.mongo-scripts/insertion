@@ -1,0 +1,34 @@
+db.users.insert([
+
+	{
+		"name": "baddie",
+		"age": "20",
+		hobby: ["football", "music", "wrestling"]
+	},
+	{
+		"name": "manoo",
+		"age": "31",
+		hobby: ["games", "porn", "food"]
+	
+	},
+	{
+		"name": "dorq",
+		"age": "6",
+		hobby: ["games", "music", "anime"]
+	}
+])
+
+db.texts.insert([
+	{
+		"title": "anime is cringe",
+		"author": ObjectId("5fe73aad89742824351c879b"),
+		"text": "govno eto vashe anime"
+		"isImportant": false
+	},
+	{
+		"title": "i love food",
+		"author": ObjectId("5fe73aad89742824351c879c"),
+		"text": "nyam"
+		"isImportant": false
+	}
+])
